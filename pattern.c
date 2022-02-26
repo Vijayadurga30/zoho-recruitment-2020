@@ -9,9 +9,14 @@ void main()
         x=i;
         for(j=1; j<=i; j++)
         {
+            if(x+64<=90){
             printf("%c",x+64);
             x=x+temp;
             temp--;
+            }
+            else{
+                printf("*");
+            }
         }
         printf("\n");
     }
